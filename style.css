@@ -94,11 +94,13 @@ nav#horz ul {
 nav#horz ul li {
 		float: left;
 		list-style-type: none;
+		border-bottom: 1em solid black;
+		
 }
 
 nav#horz ul li a {
 		display: block;
-		padding: 25px;
+		padding: 10px;
 		font-size: 25px;
 		color: #fff;
 		text-decoration: none;
@@ -119,17 +121,75 @@ h1{
 
 h2{
 	font-family: 'Indie Flower', cursive;
-	margin-left: 1em;
-	
+	font-size: 28px;
+	font-weight: bold;
 }
 
 p {
 	font-family: 'Roboto', sans-serif, acme;
     font-size: 1em;
+	word-wrap: break-word;
+	word-break: break-all;
+	margin: 2em;
 }
 
 ul > li {
-	list-style-type: square;;
+	list-style-type: square;
 	list-style-position: inside;
 	padding-left: 1em;
 }
+
+/* Android Webpage CSS */
+
+#android-header {
+		background-color: #808080;
+		
+}
+
+#content {
+		margin: 0;
+		position: relative;
+		background-color: 	#00BFFF;
+}
+
+
+
+#wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#header {
+	background-color: #CCC; 
+	padding: 15px;
+	text-align: center;
+	}
+	
+
+#android-version-links {
+	padding-top: 10px;
+	float: left;
+	width: 22.5%;
+	margin: 0 0 0 2.5%;
+}
+#android-main {
+	padding-top: 10px;
+	float: left;
+	width: 45%;
+	margin: 0 2.5%;
+	 }
+	 
+#android-news {
+	padding-top: 10px;
+	float: left;
+	width: 22.5%;
+	margin: 0 2.5% 0 0;
+}
+
+#footer {
+	clear: left; /* starts the footer below the floated content */
+	background: #CCC;}
+
+
+
+
