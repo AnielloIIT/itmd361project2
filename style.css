@@ -187,6 +187,35 @@ ul > li {
 	margin: 0 2.5% 0 0;
 }
 
+/* This is the start of the resume page css*/
+
+#jobs {
+	width: 50%;
+	position: absolute;
+	top: 0;
+	left: 25%;
+	margin: 0;
+	outline: 2px dashed #0053ae;
+}
+
+#contact-info {
+	width: 22.5%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	outline: 2px dashed #009554;
+}
+
+#schools {
+	width: 22.5%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	outline: 2px dashed #dd0009;
+}
+
 #footer {
 	clear: left; /* starts the footer below the floated content */
 	background: #CCC;}
