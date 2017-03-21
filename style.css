@@ -92,6 +92,7 @@ nav#horz ul {
 }
 
 nav#horz ul li {
+	padding: 0;
 		float: left;
 		list-style-type: none;
 		border-bottom: 1em solid black;
@@ -100,7 +101,9 @@ nav#horz ul li {
 
 nav#horz ul li a {
 		display: block;
-		padding: 10px;
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
 		font-size: 25px;
 		color: #fff;
 		text-decoration: none;
@@ -124,6 +127,15 @@ h2{
 	font-family: 'Indie Flower', cursive;
 	font-size: 28px;
 	font-weight: bold;
+	padding-top: 1em;
+}
+
+h3{
+		font-family: 'Roboto', sans-serif, acme;
+		font-size: 18px;
+		font-weight: bold;
+		padding-top: 1em;
+
 }
 
 p {
@@ -131,13 +143,16 @@ p {
     font-size: 1em;
 	word-wrap: break-word;
 	word-break: break-all;
-	margin: 2em;
+	margin: 1em;
 }
 
 ul > li {
-	list-style-type: square;
+	
+	list-style-type: none;
 	list-style-position: inside;
-	padding-left: 1em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	list-style-position: outside;
 }
 
 /* Android Webpage CSS */
@@ -168,20 +183,18 @@ ul > li {
 	
 
 #column1 {
-	padding-top: 10px;
 	float: left;
 	width: 22.5%;
 	margin: 0 0 0 2.5%;
 }
 #main {
-	padding-top: 10px;
 	float: left;
 	width: 45%;
 	margin: 0 2.5%;
+	padding-bottom: 2em;
 	 }
 	 
 #column2 {
-	padding-top: 10px;
 	float: left;
 	width: 22.5%;
 	margin: 0 2.5% 0 0;
