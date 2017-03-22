@@ -60,7 +60,8 @@ html {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	vertical-align: baseline;	
+	vertical-align: baseline;
+	background-color: #CCC;
 }
 
 
@@ -118,20 +119,20 @@ nav#horz ul li a:hover {
 }
 
 h1{
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 38px;
 	font-weight: bold;
 }
 
 h2{
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 28px;
 	font-weight: bold;
 	padding-top: 1em;
 }
 
 h3{
-		font-family: 'Roboto', sans-serif, acme;
+		font-family: 'Noto Sans', sans-serif;
 		font-size: 18px;
 		font-weight: bold;
 		padding-top: 1em;
@@ -141,8 +142,6 @@ h3{
 p {
 	font-family: 'Roboto', sans-serif, acme;
     font-size: 1em;
-	word-wrap: break-word;
-	word-break: break-all;
 	margin: 1em;
 }
 
@@ -173,6 +172,7 @@ ul > li {
 #wrapper {
 	max-width: 1000px;
 	margin: 0 auto;
+	background-color: #CCC;
 }
 
 #header {
@@ -192,6 +192,8 @@ ul > li {
 	width: 45%;
 	margin: 0 2.5%;
 	padding-bottom: 2em;
+	background-color: white;
+	
 	 }
 	 
 #column2 {
@@ -204,6 +206,7 @@ ul > li {
 #column-main{
 	float: left;
 	width: 30%;
+	background-color: white;
 }
 
 #main-page-content{
@@ -214,7 +217,8 @@ ul > li {
 
 #footer {
 	clear: left; /* starts the footer below the floated content */
-	background: #CCC;}
+	background-color: #808080;
+}
 
 
 
