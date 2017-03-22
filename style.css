@@ -87,35 +87,35 @@ nav#horz {
 }
 
 nav#horz ul {
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 nav#horz ul li {
 	padding: 0;
-		float: left;
-		list-style-type: none;
-		border-bottom: 1em solid black;
+	float: left;
+	list-style-type: none;
+	border-bottom: 1em solid black;
 		
 }
 
 nav#horz ul li a {
-		display: block;
-		padding-top: 10px;
-		padding-left: 10px;
-		padding-right: 10px;
-		font-size: 25px;
-		color: #fff;
-		text-decoration: none;
-		font-weight: bold;
-		text-transform: uppercase;
-		font-family: 'Roboto', sans-serif, acme;
+	display: block;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 25px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif, acme;
 }
 
 nav#horz ul li a:hover {
-		background-color: white;
-		color: #000;
+	background-color: white;
+	color: #000;
 }
 
 h1{
@@ -132,10 +132,10 @@ h2{
 }
 
 h3{
-		font-family: 'Noto Sans', sans-serif;
-		font-size: 18px;
-		font-weight: bold;
-		padding-top: 1em;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 1em;
 
 }
 
@@ -157,14 +157,14 @@ ul > li {
 /* Android Webpage CSS */
 
 #android-header {
-		background-color: #808080;
+	background-color: #808080;
 		
 }
 
 #content {
-		margin: 0;
-		position: relative;
-		background-color: 	#00BFFF;
+	margin: 0;
+	position: relative;
+	background-color: 	#00BFFF;
 }
 
 
@@ -210,13 +210,13 @@ ul > li {
 }
 
 #main-page-content{
-		float: left;
-		width: 70%;
+	float: left;
+	width: 70%;
 }
 
 
 #footer {
-	clear: left; /* starts the footer below the floated content */
+	clear: left; /* starts the footer below the floated content above */
 	background-color: #808080;
 }
 
